@@ -77,7 +77,7 @@ The model uses a custom implementation of **multi-head attention**, enabling it 
 # 📊 **Results**
 
  - **Training Dataset**: Subset of Tiny Stories
- - **Model Size**: GPT-2 Medium (355M parameters)
+ - **Model Size**: GPT-2 Small
  - **Performance**: Achieved coherent and creative text generation.
 
  ---
