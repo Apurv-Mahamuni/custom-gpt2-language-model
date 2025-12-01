@@ -1,6 +1,6 @@
 🌟 Custom GPT-2 Model: Tiny Stories Edition 📚
 
-# Welcome to the **Custom GPT-2 Model** repository! 🚀 This project showcases the training of a **custom GPT-2 model** on a subset of the **Tiny Stories dataset**. The model is built from scratch, incorporating key components like **multi-head attention mechanisms** and **transformer blocks**. Let's dive into the details! 💡
+## Welcome to the **Custom GPT-2 Model** repository! 🚀 This project showcases the training of a **custom GPT-2 model** on a subset of the **Tiny Stories dataset**. The model is built from scratch, incorporating key components like **multi-head attention mechanisms** and **transformer blocks**. Let's dive into the details! 💡
 
 ---
 
@@ -9,7 +9,6 @@
 This project demonstrates:
 - 🧠 **Custom GPT-2 Architecture**: Built from scratch using PyTorch, including **multi-head attention** and **transformer blocks**.
 - 📚 **Dataset**: Trained on a subset of the **Tiny Stories dataset**, which contains short, engaging stories.
-- 🎯 **Fine-Tuning**: Leveraging instruction-based fine-tuning for better performance.
 - ⚡ **Inference**: Generate creative and coherent text outputs.
 
 ---
@@ -36,15 +35,13 @@ The model uses a custom implementation of **multi-head attention**, enabling it 
 
  ```
  src/
- ├── GPT.py                     # GPT model implementation
- ├── transformer.py             # Transformer block and layer normalization
+ ├── GPT.py                      # GPT model implementation
+ ├── transformer.py              # Transformer block and layer normalization
  ├── attention_with_trainable.py # Multi-head attention implementation
- ├── dataloader_instruction_finetuning.py # Data loading and preprocessing
- ├── finetuning_instruction.py  # Fine-tuning pipeline
- ├── pretrained.py              # Weight loading utilities
- ├── inference.py               # Inference script for text generation
- ├── loss.py                    # Loss calculation and training utilities
- ├── Data_Loader_tinystories.py # Tiny Stories dataset loader
+ ├── DataLoader.py               # Data loading and preprocessing
+ ├── inference.py                # Inference script for text generation
+ ├── loss.py                     # Loss calculation and training utilities
+ ├── GPT_Tiny_Stories.py         # Tiny Stories model training
  ```
 
 ---
@@ -66,7 +63,7 @@ The model uses a custom implementation of **multi-head attention**, enabling it 
 ## 3️⃣ **Train the Model**
  Run the training script to train the model on the Tiny Stories dataset:
  ```bash
- python src/finetuning_instruction.py
+ python src/GPT_Tiny_Stories.py
  ```
 
 ## 4️⃣ **Generate Text**
@@ -81,7 +78,7 @@ The model uses a custom implementation of **multi-head attention**, enabling it 
 
  - **Training Dataset**: Subset of Tiny Stories
  - **Model Size**: GPT-2 Medium (355M parameters)
- - **Performance**: Achieved coherent and creative text generation after fine-tuning.
+ - **Performance**: Achieved coherent and creative text generation.
 
  ---
 
@@ -119,20 +116,6 @@ The model uses a custom implementation of **multi-head attention**, enabling it 
 
  This project is inspired by the book **"Build a Large Language Model From Scratch"** by Sebastian Raschka. Special thanks to the creators of the **Tiny Stories dataset**.
 
- ---
-
-# 📝 **License**
-
- This project is licensed under the **Apache License 2.0**. See the LICENSE file for details.
-
- ---
-
-# 🌟 **Connect**
-
-If you have any questions or suggestions, feel free to reach out! 😊
-
- 📧 **Email**: your-email@example.com  
- 🌐 **GitHub**: [your-username](https://github.com/your-username)
 
  ---
 
