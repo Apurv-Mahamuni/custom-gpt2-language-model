@@ -14,7 +14,7 @@ GPT_CONFIG_MINI = {
 model = GPTModel(GPT_CONFIG_MINI)
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-model.load_state_dict(torch.load("D:\Books_Code\LLM from Scratch\gpt_epoch4.pt", map_location=device))
+model.load_state_dict(torch.load("\gpt_epoch4.pt", map_location=device))
 model.eval()
 
 import tiktoken
