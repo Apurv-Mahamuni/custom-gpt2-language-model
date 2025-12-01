@@ -1,11 +1,20 @@
+<<<<<<< HEAD
 🌟 Custom GPT-2 Model: Tiny Stories Edition 📚
 
 # Welcome to the **Custom GPT-2 Model** repository! 🚀 This project showcases the training of a **custom GPT-2 model** on a subset of the **Tiny Stories dataset**. The model is built from scratch, incorporating key components like **multi-head attention mechanisms** and **transformer blocks**. Let's dive into the details! 💡
 
 ---
+=======
+## 🌟 Custom GPT-2 Model: Tiny Stories Edition 📚
+
+### Welcome to the **Custom GPT-2 Model** repository! 🚀 This project showcases the training of a **custom GPT-2 model** on a subset of the **Tiny Stories dataset**. The model is built from scratch, incorporating key components like **multi-head attention mechanisms** and **transformer blocks**. Let's dive into the details! 💡
+
+ ---
+>>>>>>> 6d68328549fb1381277e6f660e9ea05762d357f0
 
 # 📖 **Overview**
 
+<<<<<<< HEAD
 This project demonstrates:
 - 🧠 **Custom GPT-2 Architecture**: Built from scratch using PyTorch, including **multi-head attention** and **transformer blocks**.
 - 📚 **Dataset**: Trained on a subset of the **Tiny Stories dataset**, which contains short, engaging stories.
@@ -13,6 +22,14 @@ This project demonstrates:
 - ⚡ **Inference**: Generate creative and coherent text outputs.
 
 ---
+=======
+## This project demonstrates:
+### - 🧠 **Custom GPT-2 Architecture**: Built from scratch using PyTorch, including **multi-head attention** and **transformer blocks**.
+### - 📚 **Dataset**: Trained on a subset of the **Tiny Stories dataset**, which contains short, engaging stories.
+### - ⚡ **Inference**: Generate creative and coherent text outputs.
+
+ ---
+>>>>>>> 6d68328549fb1381277e6f660e9ea05762d357f0
 
 # 🛠️ **Key Components**
 
@@ -36,6 +53,7 @@ The model uses a custom implementation of **multi-head attention**, enabling it 
 
  ```
  src/
+<<<<<<< HEAD
  ├── GPT.py                     # GPT model implementation
  ├── transformer.py             # Transformer block and layer normalization
  ├── attention_with_trainable.py # Multi-head attention implementation
@@ -45,6 +63,26 @@ The model uses a custom implementation of **multi-head attention**, enabling it 
  ├── inference.py               # Inference script for text generation
  ├── loss.py                    # Loss calculation and training utilities
  ├── Data_Loader_tinystories.py # Tiny Stories dataset loader
+=======
+ ├── GPT.py                      # GPT model implementation
+ ├── GPT_Tiny_Stories.py         # Model training
+ ├── transformer.py              # Transformer block and layer normalization
+ ├── attention_with_trainable.py # Multi-head attention implementation
+ ├── DataLoader.py               # Data loading and preprocessing
+ ├── inference.py                # Inference script for text generation
+ ├── loss.py                     # Loss calculation and training utilities
+ 
+ ```
+
+---
+
+## 🚀 **How to Use**
+
+### 1️⃣ **Clone the Repository**
+```bash
+   git clone https://github.com/your-username/custom-gpt2-tiny-stories.git
+   cd custom-gpt2-tiny-stories
+>>>>>>> 6d68328549fb1381277e6f660e9ea05762d357f0
  ```
 
 ---
